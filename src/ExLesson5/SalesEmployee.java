@@ -9,11 +9,6 @@ public class SalesEmployee extends Employee {
         this.sales = sales;
     }
 
-    public SalesEmployee(int employeeId, String name) {
-        super(employeeId, name);
-    }
-
-
     @Override
     public void displayInfomation() {
         System.out.println("SalesEmployee");
