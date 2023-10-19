@@ -45,7 +45,6 @@ public abstract class Employee {
         return this.employeeId == otherEmployee.employeeId && this.name.equals(otherEmployee.name);
     }
 
-    @Override
     public String toString() {
         return "Employee ID: " + employeeId + ", Name: " + name;
     }
